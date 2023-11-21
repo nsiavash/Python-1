@@ -1,3 +1,5 @@
+#READ ME: This code is for training and demonstration purposes only.
+
 import random
 
 MAX_LINES = 3
