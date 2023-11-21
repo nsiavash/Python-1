@@ -1,4 +1,5 @@
 #READ ME: This code is for training and demonstration purposes only.
+#DECRIPTION: This is a basic slot machine game.
 
 import random
 
