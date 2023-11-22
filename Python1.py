@@ -18,10 +18,10 @@ symbol_count = {
 }
 
 symbol_value = {
-    "A": 5,
-    "B": 4,
-    "C": 3,
-    "D": 2
+    "A": 9,
+    "B": 6,
+    "C": 4,
+    "D": 3
 }
 
 def check_winnings(columns, lines, bet, values):
@@ -129,7 +129,7 @@ def spin(balance):
     slots = get_slot_machine_spin(ROWS, COLS, symbol_count)
     print_slot_machine(slots)
     winnings, winning_lines = check_winnings(slots, lines, bet, symbol_value)
-    print(f"You won {winnings}!")
+    print(f"You won ${winnings}!")
     print(f"You won on lines:", *winning_lines)
     return winnings - total_bet
 
